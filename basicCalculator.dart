@@ -28,5 +28,8 @@ String op = prompt("enter an operation ('+' , '-', '*','/')");
     print(num1 * num2 * num3);
  }else if (op == '/'){
     stdout.writeln(num1 / num2/ num3);
- }
+ }else{
+    print("invalid operatotr");
+  }
+}
   
