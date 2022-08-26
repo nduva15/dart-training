@@ -19,17 +19,25 @@ double num2 =promptdouble();
 double num3 =promptdouble();
 String op = prompt("enter an operation ('+' , '-', '*','/')");
  
-  if (op == '+'){
-    print (num1+ num2+ num3);
-    
-  }else if (op == '-'){
-    print(num1 - num2 - num3);
-  }else if(op == '*'){
-    print(num1 * num2 * num3);
- }else if (op == '/'){
-    stdout.writeln(num1 / num2/ num3);
- }else{
-    print("invalid operatotr");
+ switch(op){
+    case '+':
+      print (num1+ num2+ num3);
+      break;
+      
+    case '-':
+      print (num1-num2- num3);
+      break;
+    case '*':
+      print (num1*num2* num3);
+      break;
+    case '/':
+      print (num1/ num2/ num3);
+      break;
+    default:
+      print("invalid operator");
+      
   }
 }
+  
+
   
